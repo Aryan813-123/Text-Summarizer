@@ -34,7 +34,7 @@ def pdfReader(pdf_path):
     with open(pdf_path, 'rb') as pdfFileObject:
         pdfReader = PyPDF2.PdfFileReader(pdfFileObject)
         count = pdfReader.numPages
-        print("\nTotal Pages in pdf = ", count)
+        print("\nTotal Pages in pdf = ", coun)
         
         c = 'Y'
         start_page = 0
